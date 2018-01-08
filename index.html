@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>pomodoro clock master</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Play" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <div class="title">A Pomodoro Clock
+    <p class="coded">coded by John Neill</p>
+  </div>
+  <div class = "userInput">
+    <div class = "break">
+      <div id="plusBreak"><button onclick="breakAdd()" class="round">+</button></div>
+      <p><div class = "breakAdding">break: 5</div></p>
+    <div id="minusBreak"><button onclick="breakMinus()"class="round">-</button></div>
+    </div>
+    <div class = "session">
+      <div id="plusSession"><button onclick="sessionAdd()" class="round">+</button></div>
+      <p><div class = "sessionAdding">session: 25</div></p>
+    <div id="minusSession"><button onclick="sessionMinus()"class="round">-</button></div>
+    </div>
+  </div>
+    <canvas id="myCanvas" width="250" height="275">
+    </canvas> 
+  <p>
+    <div><button class="rectangles" onclick="pause()">pause</button>
+      <button class="rectangles" onclick="start()">(re)start</button>
+    </div>
+  </p>
+  <p>
+    <div class="workOrBreak">It's time for work!</div>
+  </p>
+  
+  
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
